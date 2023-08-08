@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-$on@$fo&mx_3r5&*y=z-6rbo=@98n3qsl=msezh+2c3mvhxw2l'
+SECRET_KEY = '********'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,7 +85,7 @@ DATABASES = {
 }
 
 # Google Cloud SQL
-# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:R25ItsbxdlYYV@34.95.20.90:5432/postgres')}
+# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:*********@34.95.20.90:5432/postgres')}
 
 
 # Password validation
